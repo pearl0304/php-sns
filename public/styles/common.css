@@ -1,0 +1,76 @@
+@import url("./reset.css");
+
+header {
+    width: 100%;
+    height: 30px;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+header .header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-box div {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 45px;
+}
+
+header .header-box .icons ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-box .icons ul li {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+header .header-box .icons ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+}
+
+footer .footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-box ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+footer .footer-box ul li{
+    width: 35px;
+    height: 35px;
+    margin: 0 45px;
+    cursor: pointer;
+}
+
+footer .footer-box ul li img {
+    width: 100%;
+    height: 100%;
+}
+

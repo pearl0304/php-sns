@@ -1,0 +1,99 @@
+.mypage-wrap {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage-wrap .mypage-box {
+    width: 600px;
+}
+
+.mypage-wrap .mypage-box .user-info {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mypage-wrap .mypage-box .user-info .user-info-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.mypage-wrap .mypage-box .user-info .top {
+    height: 60px;
+}
+
+.mypage-wrap .mypage-box .user-info .top .left {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mypage-wrap .mypage-box .user-info .top .right div {
+    width: 40px;
+    height: 40px;
+}
+
+.mypage-wrap .mypage-box .user-info .top img {
+    width: 100%;
+    height: 100%;
+}
+
+.mypage-wrap .mypage-box .user-info .middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mypage-wrap .mypage-box .user-info .middle .left {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid darkblue;
+    overflow: hidden;
+}
+
+.mypage-wrap .mypage-box .user-info .middle .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.mypage-wrap .mypage-box .user-info .middle .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+
+.feed {
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    padding: 1px;
+    overflow: auto;
+}
+
+.feed::-webkit-scrollbar {
+    width: 0; /* 스크롤바 너비 */
+    height: 0; /* 스크롤바 높이 */
+}
+
+.feed-item {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.feed-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

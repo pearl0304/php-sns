@@ -1,0 +1,28 @@
+.user-form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.user-form-wrap .user-form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-form-wrap .user-form-box .user-form-top {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-form-wrap .user-form-box .user-form-bottom form div {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-form-wrap .user-form-box .user-form-bottom form .check_duplicate {
+    cursor: pointer;
+}
